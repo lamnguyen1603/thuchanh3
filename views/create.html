@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>create</title>
+</head>
+<body>
+<form action="/create" method="post">
+  <input type="text" name="name" placeholder="nhap ten">
+  <input type="text" name="price" placeholder="nhap gia">
+    <input type="text" name="quality" placeholder="nhap so luong">
+    <input type="text" name="color" placeholder="nhap mau sac">
+  <input type="text" name="description" placeholder="nhap mo ta">
+
+    <select name="idCategory">
+        {categories}
+    </select>
+  <button type="submit">them moi</button>
+</form>
+</body>
+</html>
